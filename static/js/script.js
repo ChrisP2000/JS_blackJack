@@ -350,7 +350,7 @@ function computeWinner(){
         winner = DEALER;
 
         // consition when u and the dealer busts 
-    } else if ( YOU['score'] > 21 && DAELER['score']> 21){
+    } else if ( YOU['score'] > 21 && DEALER['score']> 21){
         blackjackGame['draws']++;
     }
     console.log(blackjackGame)
